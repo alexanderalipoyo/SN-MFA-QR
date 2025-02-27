@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-02-18T13:07:55.439Z",
-    "end": "2025-02-18T13:08:20.702Z",
-    "duration": 21003,
+    "start": "2025-02-27T11:03:28.069Z",
+    "end": "2025-02-27T11:03:48.786Z",
+    "duration": 16741,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "411af503-2c1b-419a-9989-797a2665b539",
+      "uuid": "05e63834-7a6f-499f-8e4f-31431ac01e07",
       "title": "",
       "fullFile": "cypress\\e2e\\mfa_config\\mfa\\mfa_qr_code.ts",
       "file": "cypress\\e2e\\mfa_config\\mfa\\mfa_qr_code.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "5cb68f9b-53bb-4de5-9f01-f7c214a55de5",
+          "uuid": "4f155b30-0ed6-4c50-a093-ed6e462bb636",
           "title": "MFA with QR Code Image",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validate login",
               "fullTitle": "MFA with QR Code Image Validate login",
               "timedOut": null,
-              "duration": 21003,
+              "duration": 16741,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.loginPortal();",
               "err": {},
-              "uuid": "6e1dd508-cd65-4119-a080-941d0caacbf0",
-              "parentUUID": "5cb68f9b-53bb-4de5-9f01-f7c214a55de5",
+              "uuid": "de8ab2bf-3b9f-4628-8029-7f7511241607",
+              "parentUUID": "4f155b30-0ed6-4c50-a093-ed6e462bb636",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6e1dd508-cd65-4119-a080-941d0caacbf0"
+            "de8ab2bf-3b9f-4628-8029-7f7511241607"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 21003,
+          "duration": 16741,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
